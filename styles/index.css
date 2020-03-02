@@ -146,4 +146,75 @@ nav {
 /*** speakers ***/
 .speakers {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.speakers-container {
+  display: flex;
+  justify-content: center;
+}
+
+.speakers-elements {
+  margin: 5px;
+  width: 40%;
+}
+
+.speakers-elements article {
+  text-align: start;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.speakers-elements img {
+  width: 100px;
+  height: 100px;
+  border: 10px #111 solid;
+  border-image:url("../images/pixal.jpg") 25 30 round;
+  margin-right: 5px;
+}
+
+.speaker-name {
+  font-size: 1.2rem;
+}
+
+.speaker-name,
+.speaker-job,
+.speaker-bio {
+  margin: 0;
+}
+
+.speaker-info hr {
+  margin-left: 0; 
+}
+
+.speaker-job {
+  color: rgb(255, 72, 0);
+}
+
+/*** Partners ***/
+.partners {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.partners-list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.partner {
+  width: 20%;
+  background: transparent;
+  margin: 10px;
+}
+
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
