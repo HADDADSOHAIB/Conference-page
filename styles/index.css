@@ -1,3 +1,19 @@
+.position-up {
+  position: relative;
+  z-index: 2;
+}
+
+section h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+section hr {
+  width: 30px;
+  border: 1px rgb(245, 169, 28) solid;
+}
+
 /*** navbar ****/
 .link-style,
 .link-style:hover {
@@ -32,19 +48,15 @@ nav {
   position: relative;
 }
 
-.landing-section h2,
-.landing-section p {
-  z-index: 2;
-  position: relative;
-}
-
 .white-layer {
   position: absolute;
+  top: 0;
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0.6);
   z-index: 1;
 }
+
 .width-500 {
   width: 500px;
 }
@@ -76,4 +88,62 @@ nav {
 .place {
   margin: 0 auto  0 15vw;
   font-size: 1.5rem;
+}
+
+/*** main program section ***/
+.main-program {
+  text-align: center;
+  background: url("/images/main-program.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.program-elements {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.program-elements article {
+  margin: 5px;
+  padding: 10px;
+  width: 15%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.program-elements h4 {
+  color: rgb(255, 94, 0);
+  margin: 15px auto 5px;
+}
+
+.program-elements i {
+  margin: 5px auto;
+}
+
+.all-program,
+.all-program:hover {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.all-program-parent {
+  padding-bottom: 20px;
+}
+
+.black-layer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(1, 1, 1, 0.6);
+  top: 0;
+  z-index: 1;
+}
+
+/*** speakers ***/
+.speakers {
+  text-align: center;
 }
