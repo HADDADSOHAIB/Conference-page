@@ -34,7 +34,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - https://www.microverse.org/.
-- The website designed by [Cindy Shin in Behance](https://www.behance.net/adagio07) 
+- The website designed by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- https://pixabay.com/
 
 ## 📝 License
 

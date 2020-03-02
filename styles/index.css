@@ -22,3 +22,58 @@ nav {
 .nav-options li {
   margin-right: 30px;
 }
+
+/*** landing section ***/
+.landing-section {
+  height: 100vh;
+  background: url("/images/bg-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.landing-section h2,
+.landing-section p {
+  z-index: 2;
+  position: relative;
+}
+
+.white-layer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+.width-500 {
+  width: 500px;
+}
+
+.hello {
+  padding-top: 10vh;
+  margin: 0 auto 0 15vw;
+  font-size: 2rem;
+}
+
+.landing-section h2 {
+  margin: 0 auto 0 15vw;
+  font-size: 3rem;
+}
+
+.description {
+  padding: 10px;
+  margin: 20px auto  auto 15vw;
+  font-size: 1rem;
+  background: rgb(230, 223, 223);
+  border: 3px #fff solid;
+}
+
+.date {
+  margin: 80px auto  0 15vw;
+  font-size: 2.2rem;
+}
+
+.place {
+  margin: 0 auto  0 15vw;
+  font-size: 1.5rem;
+}
