@@ -123,6 +123,7 @@ nav {
   width: 30vw;
   height: 200px;
   margin: 20px;
+  position: relative;
 }
 
 .last-item-1 {
@@ -135,6 +136,33 @@ nav {
   background: url("../images/last-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.last-description {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.last-description h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.last-description p {
+  font-size: 1.2rem;
+}
+
+.orange-layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 187, 0, 0.5);
+  z-index: 1;
 }
 
 /*** footer ***/
