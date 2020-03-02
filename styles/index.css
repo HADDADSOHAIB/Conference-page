@@ -1,0 +1,24 @@
+/*** navbar ****/
+.link-style,
+.link-style:hover {
+  color: #111;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-nav {
+  width: 50px;
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-options li {
+  margin-right: 30px;
+}
