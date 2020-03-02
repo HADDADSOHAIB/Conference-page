@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.position-up {
+  position: relative;
+  z-index: 2;
+}
+
+.link-style,
+.link-style:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+section h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+section hr {
+  width: 30px;
+  border: 1px rgb(245, 169, 28) solid;
+}
+
+/*** navbar ****/
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-nav {
+  width: 50px;
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-options li {
+  margin-right: 30px;
+}
+
+/*** Select tickets  ***/
+.select-ticket {
+  text-align: center;
+  background: #eee;
+  padding-bottom: 50px;
+}
+
+.step {
+  padding: 15px;
+  border: 1px #666 solid;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.step span {
+  color: rgb(245, 169, 28);
+}
+
+.ticket-container {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 25px 25px 50px 50px;
+  align-items: center;
+  border: 2px #666 solid;
+}
+
+.item {
+  margin: 0;
+  height: 100%;
+  border: 1px #666 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+button {
+  background: rgb(245, 169, 28);
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border: 1px #666 solid;
+  cursor: pointer;
+}
+
+/*** lunch ***/
+.select-lunch {
+  text-align: center;
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.menus-container {
+  border: 1px #666 solid;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.separator {
+  background: #eee;
+  height: 30px;
+}
+
+.menus {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/*** footer ***/
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer * {
+  margin: 20px;
+}
