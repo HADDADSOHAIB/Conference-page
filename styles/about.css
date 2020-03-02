@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.position-up {
+  position: relative;
+  z-index: 2;
+}
+
+.link-style,
+.link-style:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+section h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+section hr {
+  width: 30px;
+  border: 1px rgb(245, 169, 28) solid;
+}
+
+/*** navbar ****/
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-nav {
+  width: 50px;
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-options li {
+  margin-right: 30px;
+}
+
+/*** landing section ***/
+.landing-section {
+  height: 100vh;
+  background: url("/images/about-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.white-layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.width-500 {
+  width: 500px;
+}
+
+.hello {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.landing-section h2 {
+  padding-top: 10vh;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.description {
+  padding: 10px;
+  margin: 80px auto;
+  font-size: 1rem;
+  background: rgb(230, 223, 223);
+  border: 3px #fff solid;
+}
+
+.contact {
+  margin: 60px auto,;
+  font-size: 1.5rem;
+}
+
+/*** Logo ***/
+.logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo-description {
+  margin: 30px auto;
+}
+
+.logo-section img {
+  margin: 10px auto;
+}
+
+/*** last-competitions ***/
+.last-competitions {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.last-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.last-item {
+  width: 30vw;
+  height: 200px;
+  margin: 20px;
+}
+
+.last-item-1 {
+  background: url("../images/last-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-item-2 {
+  background: url("../images/last-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*** footer ***/
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer * {
+  margin: 20px;
+}
