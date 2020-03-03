@@ -257,8 +257,14 @@ nav {
 
 .partner {
   margin: 20px;
+  display: flex;
+  align-items: center;
+  color: #D3D3D3;
 }
 
+.partner i {
+  margin-right: 5px;
+}
 
 footer {
   background: #D3D3D3;
