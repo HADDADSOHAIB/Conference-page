@@ -208,7 +208,7 @@ section hr {
 /*** landing section ***/
 .landing-section {
   height: 100%;
-  background: url("/images/about-landing.jpg");
+  background: url("../images/about-landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
