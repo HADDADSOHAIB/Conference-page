@@ -114,7 +114,7 @@ nav {
 }
 
 .place {
-  margin: 0 auto  0 15vw;
+  margin: 0 auto  0 15%;
   font-size: 1.5rem;
   padding-bottom: 30px;
 }
@@ -241,6 +241,7 @@ nav {
 .speaker-bio {
   text-align: justify;
 }
+
 /*** Partners ***/
 .partners {
   text-align: center;
@@ -276,4 +277,131 @@ footer {
 
 footer * {
   margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .width-500 {
+    width: 90%;
+  }
+    
+  /*** landing section ***/
+  .hello {
+    margin: 0 auto 0 5%;
+    font-size: 1.5rem;
+  }
+
+  .landing-section h2 {
+    margin: 0 auto 0 5%;
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 20px;
+    margin: 20px 5%;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .date {
+    margin: 40px auto  0 5%;
+    font-size: 2rem;
+  }
+
+  .place {
+    margin: 0 auto  0 5%;
+    font-size: 1rem;
+  }
+
+/*** main program section ***/
+  .program-elements {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .program-elements article {
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .program-elements article > * {
+    margin: 5px;
+  }
+
+  .program-elements h4 {
+    font-size: 0.8rem;
+  }
+
+  .program-elements small {
+    font-size: 0.7rem;
+  }
+
+  /*** speakers ***/
+  .speakers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .speakers-elements {
+    margin: 5px;
+    width: 90%;
+  }
+
+  .speaker-name {
+    font-size: 1rem;
+  }
+
+  .speaker-info hr {
+    margin-left: 0; 
+  }
+
+  .speaker-job {
+    color: #EC5242;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+
+  .speaker-bio {
+    text-align: justify;
+    font-size: 0.7rem;
+  }
+    
+  /*** Partners ***/
+  .partners-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner {
+    margin: 10px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer small {
+    font-size: 0.7rem;
+  }
+
+  footer > * {
+    margin: 0;
+  }
 }
