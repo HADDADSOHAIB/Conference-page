@@ -54,7 +54,7 @@ table {
 
 body {
   font-family: 'lato', Arial, Helvetica, sans-serif;
-  color: #272A31;
+  color: #272a31;
 }
 
 .position-up {
@@ -76,7 +76,7 @@ section h3 {
 
 section hr {
   width: 30px;
-  border: 1px #EC5242 solid;
+  border: 1px #ec5242 solid;
 }
 
 /*** navbar ****/
@@ -117,7 +117,7 @@ section hr {
 
 .nav-options a:hover {
   text-decoration: underline;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 /*** landing section ***/
@@ -144,13 +144,13 @@ section hr {
 }
 
 .hello {
-  color: #EC5242;
+  color: #ec5242;
   margin: 0 auto;
   font-size: 2rem;
 }
 
 .landing-section h2 {
-  color: #EC5242;
+  color: #ec5242;
   font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
   padding-top: 5%;
   margin: 0;
@@ -162,8 +162,8 @@ section hr {
   margin: 30px auto;
   font-size: 1.2rem;
   text-align: justify;
-  background: #eee;
-  border: 3px #fff solid;
+  background: #eeeeee;
+  border: 3px #ffffff solid;
 }
 
 .contact {
@@ -192,7 +192,7 @@ section hr {
 .last-competitions {
   text-align: center;
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
 }
 
 .last-container {
@@ -210,7 +210,7 @@ section hr {
 }
 
 .last-item:hover {
-  border: 2px #D3D3D3 solid;
+  border: 2px #d3d3d3 solid;
 }
 
 .link-item {
@@ -231,7 +231,7 @@ section hr {
 }
 
 .last-description {
-  color: #fff;
+  color: #ffffff;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -260,7 +260,7 @@ section hr {
 
 /*** footer ***/
 footer {
-  background: #D3D3D3;
+  background: #d3d3d3;
   padding: 10px;
   display: flex;
   justify-content: center;

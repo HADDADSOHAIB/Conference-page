@@ -63,7 +63,7 @@ body {
 }
 
 .cl-orange {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .font-cocogoose {
@@ -78,13 +78,13 @@ section h3 {
 
 section hr {
   width: 30px;
-  border: 1px #EC5242 solid;
+  border: 1px #ec5242 solid;
 }
 
 /*** navbar ****/
 .link-style,
 .link-style:hover {
-  color: #272A31;
+  color: #272a31;
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ section hr {
 
 .nav-options a:hover {
   text-decoration: underline;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 /*** landing section ***/
@@ -190,7 +190,7 @@ section hr {
   background: url("/images/main-program.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #ffffff;
   position: relative;
 }
 
@@ -210,8 +210,8 @@ section hr {
 }
 
 .program-elements article:hover {
-  border: 2px #D3D3D3 solid;
-  background: #111;
+  border: 2px #d3d3d3 solid;
+  background: #111111;
 }
 
 .program-elements article small {
@@ -229,7 +229,7 @@ section hr {
 
 .all-program,
 .all-program:hover {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -309,8 +309,8 @@ section hr {
 /*** Partners ***/
 .partners {
   text-align: center;
-  background-color: #272A31;
-  color: #D3D3D3;
+  background-color: #272a31;
+  color: #d3d3d3;
 }
 
 .partners-list {
@@ -324,7 +324,7 @@ section hr {
   margin: 20px;
   display: flex;
   align-items: center;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .partner i {
@@ -332,7 +332,7 @@ section hr {
 }
 
 footer {
-  background: #D3D3D3;
+  background: #d3d3d3;
   padding: 10px;
   display: flex;
   justify-content: center;
