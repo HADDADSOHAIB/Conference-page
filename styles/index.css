@@ -183,7 +183,7 @@ section hr {
   align-items: flex-end;
   position: relative;
   z-index: 2;
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5px;
 }
 
@@ -481,7 +481,7 @@ footer * {
     font-size: 1rem;
   }
 
-/*** main program section ***/
+  /*** main program section ***/
   .program-elements {
     box-sizing: border-box;
   }
@@ -518,7 +518,7 @@ footer * {
   }
 
   .speaker-info hr {
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   .speaker-job {
@@ -529,7 +529,7 @@ footer * {
     text-align: justify;
     font-size: 0.7rem;
   }
-    
+
   /*** Partners ***/
   .partner {
     margin: 10px;
