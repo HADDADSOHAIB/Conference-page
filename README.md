@@ -8,18 +8,18 @@ This project is the capstone project of Microverse curriculum HTML and CSS3 sect
 
 ## Desktop views
 
-![screenshot](images/readme-pictures/1.png)
-![screenshot](images/readme-pictures/2.png)
-![screenshot](images/readme-pictures/3.png)
-![screenshot](images/readme-pictures/4.png)
-![screenshot](images/readme-pictures/5.png)
+![screenshot](images/readme/1.png)
+![screenshot](images/readme/2.png)
+![screenshot](images/readme/3.png)
+![screenshot](images/readme/4.png)
+![screenshot](images/readme/5.png)
 
 
 ## Mobile views
 
-![screenshot](images/readme-pictures/6.png)
-![screenshot](images/readme-pictures/7.png)
-![screenshot](images/readme-pictures/8.png)
+![screenshot](images/readme/6.png)
+![screenshot](images/readme/7.png)
+![screenshot](images/readme/8.png)
 
 
 ## Built With
