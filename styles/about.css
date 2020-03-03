@@ -33,18 +33,22 @@ section hr {
 }
 
 /*** navbar ****/
-.link-style,
-.link-style:hover {
-  color: #272A31;
-  text-decoration: none;
+.navbar {
+  padding: 0;
 }
 
-nav {
+.nav-bar {
   display: flex;
   justify-content: space-around;
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  align-items: flex-end;
   position: relative;
   z-index: 2;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  padding: 5px;
+}
+
+.navbar-toggler {
+  margin: 10px;
 }
 
 .logo-nav {
@@ -55,7 +59,7 @@ nav {
 .nav-options {
   display: flex;
   padding: 0;
-  margin: 0 0 10px;
+  margin: 0;
   list-style: none;
   align-items: flex-end;
 }
@@ -129,6 +133,7 @@ nav {
 
 .logo-description {
   margin: 30px auto;
+  text-align: justify;
 }
 
 .logo-section img {
@@ -147,18 +152,23 @@ nav {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .last-item {
-  width: 30vw;
   height: 200px;
-  margin: 20px;
+  box-sizing: border-box;
   position: relative;
   border-radius: 10px;
 }
 
 .last-item:hover {
   border: 2px #D3D3D3 solid;
+}
+
+.link-item {
+  margin: 5px;
+  width: 30%;
 }
 
 .last-item-1 {
@@ -212,4 +222,104 @@ footer {
 
 footer * {
   margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .width-500 {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  /*** navbar ****/
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+  }
+
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-options li {
+    margin: 10px;
+  }
+
+  /*** landing section ***/
+  .hello {
+    margin: 0 5%;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .landing-section h2 {
+    padding-top: 10px;
+    margin: 0 5%;
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 10px;
+    margin: 30px 5%;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  .contact {
+    font-size: 1rem;
+    margin: 10px 5%;
+  }
+
+  /*** Logo ***/
+  .logo-section {
+    text-align: center;
+    margin: auto 5% 40px;
+  }
+
+  .logo-section img {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  /*** last-competitions ***/
+  .last-competitions {
+    padding: 0 5%;
+  }
+
+  .last-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-item {
+    width: 80%;
+    height: fit-content;
+  }
+
+  footer {
+    padding: 0 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer small {
+    font-size: 0.7rem;
+  }
+
+  footer > * {
+    margin: 0;
+  }
 }
