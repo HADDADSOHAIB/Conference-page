@@ -53,8 +53,6 @@ table {
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'lato', Arial, Helvetica, sans-serif;
   color: #272A31;
 }
@@ -141,8 +139,8 @@ section hr {
   z-index: 1;
 }
 
-.width-500 {
-  width: 500px;
+.width-600 {
+  width: 600px;
 }
 
 .hello {
@@ -162,14 +160,14 @@ section hr {
 .description {
   padding: 30px;
   margin: 30px auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
   background: #eee;
   border: 3px #fff solid;
 }
 
 .contact {
-  margin-top:10px;
+  margin-top:30px;
   padding-bottom: 40px;
   font-size: 1.5rem;
 }
@@ -278,7 +276,7 @@ footer * {
     overflow-x: hidden;
   }
 
-  .width-500 {
+  .width-600 {
     width: 90%;
     box-sizing: border-box;
   }
@@ -309,7 +307,7 @@ footer * {
   }
 
   .landing-section h2 {
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0 5%;
     font-size: 2rem;
   }
