@@ -1,6 +1,20 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  color: #272A31;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.cl-orange {
+  color: #EC5242;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 .position-up {
@@ -22,34 +36,44 @@ section h3 {
 
 section hr {
   width: 30px;
-  border: 1px rgb(245, 169, 28) solid;
+  border: 1px #EC5242 solid;
 }
 
 /*** navbar ****/
 nav {
   display: flex;
   justify-content: space-around;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  position: relative;
+  z-index: 2;
 }
 
 .logo-nav {
   width: 50px;
+  margin-top: 10px;
 }
 
 .nav-options {
   display: flex;
   padding: 0;
+  margin: 0 0 10px;
   list-style: none;
+  align-items: flex-end;
 }
 
 .nav-options li {
-  margin-right: 30px;
+  margin-right: 50px;
+}
+
+.nav-options a:hover {
+  text-decoration: underline;
+  color: #EC5242;
 }
 
 /*** Select tickets  ***/
 .select-ticket {
   text-align: center;
   background: #eee;
-  padding-bottom: 50px;
 }
 
 .step {
@@ -60,12 +84,12 @@ nav {
 }
 
 .step span {
-  color: rgb(245, 169, 28);
+  color: #EC5242;
 }
 
 .ticket-container {
   width: 80%;
-  margin: 20px auto;
+  margin: 40px auto 100px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 25px 25px 50px 50px;
@@ -87,17 +111,6 @@ nav {
   grid-column: span 2;
 }
 
-button {
-  background: rgb(245, 169, 28);
-  border-radius: 10px;
-  padding: 15px;
-  color: #fff;
-  font-weight: 900;
-  font-size: 1.2rem;
-  border: 1px #666 solid;
-  cursor: pointer;
-}
-
 /*** lunch ***/
 .select-lunch {
   text-align: center;
@@ -111,10 +124,14 @@ button {
   margin: 20px auto;
 }
 
-.separator {
+.menu-type {
   background: #eee;
-  height: 30px;
+  padding: 10px 0;
+  text-align: center;
 }
+ .menu-type h4 {
+   margin: 0;
+ }
 
 .menus {
   margin: 30px auto;
@@ -122,10 +139,20 @@ button {
   justify-content: space-around;
 }
 
-
+button {
+  background: #EC5242;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border: 1px #666 solid;
+  cursor: pointer;
+}
 
 /*** footer ***/
 footer {
+  background: #D3D3D3;
   padding: 10px;
   display: flex;
   justify-content: center;

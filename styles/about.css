@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'Cocogoose Pro trial';
+  src: url('../fonts/Cocogoose\ Pro-trial.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  color: #272A31;
 }
 
 .position-up {
@@ -22,32 +29,49 @@ section h3 {
 
 section hr {
   width: 30px;
-  border: 1px rgb(245, 169, 28) solid;
+  border: 1px #EC5242 solid;
 }
 
 /*** navbar ****/
+.link-style,
+.link-style:hover {
+  color: #272A31;
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  position: relative;
+  z-index: 2;
 }
 
 .logo-nav {
   width: 50px;
+  margin-top: 10px;
 }
 
 .nav-options {
   display: flex;
   padding: 0;
+  margin: 0 0 10px;
   list-style: none;
+  align-items: flex-end;
 }
 
 .nav-options li {
-  margin-right: 30px;
+  margin-right: 50px;
+}
+
+.nav-options a:hover {
+  text-decoration: underline;
+  color: #EC5242;
 }
 
 /*** landing section ***/
 .landing-section {
-  height: 100vh;
+  height: 100%;
   background: url("/images/about-landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,26 +93,31 @@ nav {
 }
 
 .hello {
+  color: #EC5242;
   margin: 0 auto;
   font-size: 2rem;
 }
 
 .landing-section h2 {
-  padding-top: 10vh;
-  margin: 0 auto;
+  color: #EC5242;
+  font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  margin: 0;
   font-size: 3rem;
 }
 
 .description {
-  padding: 10px;
-  margin: 80px auto;
+  padding: 30px;
+  margin: 30px auto;
   font-size: 1rem;
-  background: rgb(230, 223, 223);
+  text-align: justify;
+  background: #eee;
   border: 3px #fff solid;
 }
 
 .contact {
-  margin: 60px auto,;
+  margin-top:10px;
+  padding-bottom: 40px;
   font-size: 1.5rem;
 }
 
@@ -104,6 +133,7 @@ nav {
 
 .logo-section img {
   margin: 10px auto;
+  height: 300px;
 }
 
 /*** last-competitions ***/
@@ -124,6 +154,11 @@ nav {
   height: 200px;
   margin: 20px;
   position: relative;
+  border-radius: 10px;
+}
+
+.last-item:hover {
+  border: 2px #D3D3D3 solid;
 }
 
 .last-item-1 {
@@ -157,16 +192,18 @@ nav {
 }
 
 .orange-layer {
+  border-radius: 10px;
   position: absolute;
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(255, 187, 0, 0.5);
+  background: rgba(236, 82, 66, 0.5);
   z-index: 1;
 }
 
 /*** footer ***/
 footer {
+  background: #D3D3D3;
   padding: 10px;
   display: flex;
   justify-content: center;

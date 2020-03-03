@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'lato', Arial, Helvetica, sans-serif;
+  color: #272A31;
 }
 
 .position-up {
@@ -63,7 +64,7 @@ nav {
 
 /*** landing section ***/
 .landing-section {
-  height: 100vh;
+  height: 100%;
   background: url("/images/bg-landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,21 +86,21 @@ nav {
 
 .hello {
   color: #EC5242;
-  padding-top: 10vh;
-  margin: 0 auto 0 15vw;
+  padding-top: 5%;
+  margin: 0 auto 0 15%;
   font-size: 2rem;
 }
 
 .landing-section h2 {
   color: #EC5242;
-  margin: 0 auto 0 15vw;
+  margin: 0 auto 0 15%;
   font-size: 3rem;
   font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
 }
 
 .description {
   padding: 20px;
-  margin: 20px auto  auto 15vw;
+  margin: 20px auto  auto 15%;
   font-size: 1rem;
   background: rgb(230, 223, 223);
   border: 3px #fff solid;
@@ -107,13 +108,15 @@ nav {
 }
 
 .date {
-  margin: 80px auto  0 15vw;
+  margin: 40px auto  0 15%;
   font-size: 2.2rem;
+  font-weight: 900;
 }
 
 .place {
   margin: 0 auto  0 15vw;
   font-size: 1.5rem;
+  padding-bottom: 30px;
 }
 
 /*** main program section ***/
@@ -143,6 +146,7 @@ nav {
 
 .program-elements article:hover {
   border: 2px #D3D3D3 solid;
+  background: #111;
 }
 
 .program-elements article small {
@@ -190,22 +194,24 @@ nav {
 }
 
 .speakers-elements {
-  margin: 5px;
+  margin: 10px;
   width: 40%;
 }
 
 .speakers-elements article {
   text-align: start;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  background: url("../images/pixal.jpg");
+  background-position: -10% 0;
+  background-repeat: no-repeat;
+  background-size: 5rem;
 }
 
 .speakers-elements img {
   width: 100px;
   height: 100px;
-  border: 10px #111 solid;
-  border-image:url("../images/pixal.jpg") 25 30 round;
-  margin-right: 15px;
+  margin: 10px;
 }
 
 .speaker-name {
@@ -224,13 +230,17 @@ nav {
 
 .speaker-job {
   color: #EC5242;
+  font-style: italic;
 }
 
+.speaker-bio {
+  text-align: justify;
+}
 /*** Partners ***/
 .partners {
   text-align: center;
   background-color: #272A31;
-  color: #fff;
+  color: #D3D3D3;
 }
 
 .partners-list {
@@ -241,9 +251,7 @@ nav {
 }
 
 .partner {
-  width: 20%;
-  background: transparent;
-  margin: 10px;
+  margin: 20px;
 }
 
 

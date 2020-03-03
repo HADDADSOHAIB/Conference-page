@@ -15,75 +15,69 @@
     </a>
     <ul class="nav-options">
       <li>
-        <a class="link-style" href="#">About</a>
+        <a class="link-style" href="index.html">Home</a>
       </li>
       <li>
-        <a class="link-style" href="#">Program</a>
+        <a class="link-style" href="about.html">About</a>
       </li>
       <li>
-        <a class="link-style" href="#">Join</a>
+        <a class="link-style" href="ticket.html">Tickets</a>
       </li>
-      <li>
-        <a class="link-style" href="#">Sponsor</a>
-      </li>
-      <li>
-        <a class="link-style" href="#">News</a>
-      </li>
-      <li>Button</li>
     </ul>
   </nav>
   <main>
-    <form method="POST" action="#">
+    <form method="POST" action="/proccessing">
       <section class="select-ticket">
         <h3>Select Your Tickets</h3>
         <hr>
         <p class="step"><span>STEP 1</span> &nbsp; Please select the day when you wish to attend the National Robotic
           Competition</p>
         <div class="ticket-container">
-          <p class="item">Ticket</p>
-          <p class="item">1 Day</p>
-          <p class="item span-2">2 Days</p>
-          <p class="item">Partners</p>
-          <p class="item">Date</p>
-          <p class="item">15 oct</p>
-          <p class="item">16 oct</p>
-          <p class="item">15~16 oct</p>
-          <p class="item">15~16 oct</p>
-          <p class="item">Normal</p>
-          <div class="item">
+          <p class="item bold">Ticket</p>
+          <p class="item bold">1 Day</p>
+          <p class="item bold span-2">2 Days</p>
+          <p class="item bold">Partners</p>
+          <p class="item bg-white">Date</p>
+          <p class="item bg-white">15 oct</p>
+          <p class="item bg-white">16 oct</p>
+          <p class="item bg-white">15~16 oct</p>
+          <p class="item bg-white">15~16 oct</p>
+          <p class="item bg-white">Normal</p>
+          <div class="item bg-white cl-orange">
             <label for="normal-15">$100</label>
             <input type="radio" name="ticket" id="normal-15">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="normal-16">$100</label>
             <input type="radio" name="ticket" id="normal-16">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="normal-1516">$180</label>
             <input type="radio" name="ticket" id="normal-1516">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="normal-1516-pa">$120</label>
             <input type="radio" name="ticket" id="normal-1516-pa">
           </div>
-          <p class="item">Student</p>
-          <div class="item">
+          <p class="item bg-white ">Student</p>
+          <div class="item bg-white cl-orange">
             <label for="student-15">$50</label>
             <input type="radio" name="ticket" id="student-15">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="student-16">$50</label>
             <input type="radio" name="ticket" id="student-16">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="student-1516">$90</label>
             <input type="radio" name="ticket" id="student-1516">
           </div>
-          <div class="item">
+          <div class="item bg-white cl-orange">
             <label for="student-1516-pa">$60</label>
             <input type="radio" name="ticket" id="student-1516-pa">
           </div>
         </div>
+        <i class="fab fa-android fa-3x"></i>
       </section>
       <section class="select-lunch">
         <h3>Select Your lunch</h3>
@@ -91,7 +85,9 @@
         <p class="step"><span>STEP 2</span> &nbsp; Please select your lunch. There will be no futher costs for the lunch.
         </p>
         <div class="menus-container">
-          <div class="separator"></div>
+          <div class="menu-type">
+            <h4>Normal</h4>
+          </div>
           <div class="menus">
             <div>
               <label for="lunch-1">Lunch 1</label>
