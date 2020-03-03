@@ -10,7 +10,7 @@ This project is the capstone project of Microverse curriculum HTML and CSS3 sect
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/d1205b1cf71a2dc0c5ae23740b1a6d10d2ca9810/index.html)
+[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/7d741ef366f1254d3ac73e835f9c643ab4b68744/index.html)
 
 ## Authors
 
