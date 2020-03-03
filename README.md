@@ -6,11 +6,11 @@ This project is the capstone project of Microverse curriculum HTML and CSS3 sect
 
 - HTML,
 - CSS,
--Bootstrap.
+- Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/d1205b1cf71a2dc0c5ae23740b1a6d10d2ca9810/index.html)
 
 ## Authors
 
