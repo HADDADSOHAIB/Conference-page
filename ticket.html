@@ -25,28 +25,33 @@
   <title>National Robotic Competition</title>
 </head>
 <body>
-  <nav>
-    <a href="/index.html">
-      <img class="logo-nav" src="images/logo.png" alt="logo">
-    </a>
-    <ul class="nav-options">
-      <li>
-        <a class="link-style" href="index.html">Home</a>
-      </li>
-      <li>
-        <a class="link-style" href="about.html">About</a>
-      </li>
-      <li>
-        <a class="link-style" href="ticket.html">Tickets</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-bar collapse navbar-collapse" id="navbarMenu">
+      <a href="/index.html">
+        <img class="logo-nav" src="images/logo.png" alt="logo">
+      </a>
+      <ul class="nav-options">
+        <li>
+          <a class="link-style" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="link-style" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="link-style" href="ticket.html">Tickets</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <main>
     <form method="POST" action="/proccessing">
       <section class="select-ticket">
         <h3>Select Your Tickets</h3>
         <hr>
-        <p class="step"><span>STEP 1</span> &nbsp; Please select the day when you wish to attend the National Robotic
+        <p class="step"><span>STEP 1</span> &nbsp; Please select the day when you wish to attend the National Robotic.
           Competition</p>
         <div class="ticket-container">
           <p class="item bold">Ticket</p>

@@ -300,12 +300,13 @@ footer * {
     justify-content: center;
     align-items: center;
   }
-
-  .last-item {
-    width: 80%;
+  
+  .link-item {
+    margin: 5px;
     height: fit-content;
+    width: 80%;
   }
-
+  
   footer {
     padding: 0 5%;
     text-align: center;
