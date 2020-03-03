@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 html,
 body,
 div,
@@ -91,7 +87,6 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -164,7 +159,6 @@ section hr {
   border: 1px #ec5242 solid;
 }
 
-/*** navbar ****/
 .navbar {
   padding: 0;
 }
@@ -205,7 +199,6 @@ section hr {
   color: #ec5242;
 }
 
-/*** landing section ***/
 .landing-section {
   height: 100%;
   background: url("../images/about-landing.jpg");
@@ -257,7 +250,6 @@ section hr {
   font-size: 1.5rem;
 }
 
-/*** Logo ***/
 .logo-section {
   text-align: center;
   margin-bottom: 40px;
@@ -273,7 +265,6 @@ section hr {
   height: 300px;
 }
 
-/*** last-competitions ***/
 .last-competitions {
   text-align: center;
   background-color: #333;
@@ -343,7 +334,6 @@ section hr {
   z-index: 1;
 }
 
-/*** footer ***/
 footer {
   background: #d3d3d3;
   padding: 10px;
@@ -373,7 +363,6 @@ footer * {
     justify-content: center;
   }
 
-  /*** navbar ****/
   .nav-bar {
     box-shadow: none;
   }
@@ -382,7 +371,6 @@ footer * {
     margin: 10px;
   }
 
-  /*** landing section ***/
   .hello {
     margin: 0 5%;
     font-size: 1.5rem;
@@ -407,7 +395,6 @@ footer * {
     margin: 10px 5%;
   }
 
-  /*** Logo ***/
   .logo-section {
     text-align: center;
     margin: auto 5% 40px;
@@ -418,7 +405,6 @@ footer * {
     width: 90%;
   }
 
-  /*** last-competitions ***/
   .last-competitions {
     padding: 0 5%;
   }
