@@ -183,7 +183,7 @@ section hr {
   align-items: flex-end;
   position: relative;
   z-index: 2;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
   padding: 5px;
 }
 
@@ -294,11 +294,6 @@ section hr {
   border-radius: 5px;
 }
 
-.program-elements article:hover {
-  border: 2px #d3d3d3 solid;
-  background: #111;
-}
-
 .program-elements article small {
   text-align: justify;
   display: inline-block;
@@ -332,6 +327,21 @@ section hr {
   z-index: 1;
 }
 
+.speakers-elements article {
+  text-align: start;
+  display: flex;
+  margin-bottom: 40px;
+  background: url("../images/pixal.jpg");
+  background-position: -10% 0;
+  background-repeat: no-repeat;
+  background-size: 5rem;
+}
+
+.program-elements article:hover {
+  border: 2px #d3d3d3 solid;
+  background: #111;
+}
+
 /*** speakers ***/
 .speakers {
   text-align: center;
@@ -346,16 +356,6 @@ section hr {
 .speakers-elements {
   margin: 10px;
   width: 40%;
-}
-
-.speakers-elements article {
-  text-align: start;
-  display: flex;
-  margin-bottom: 40px;
-  background: url("../images/pixal.jpg");
-  background-position: -10% 0;
-  background-repeat: no-repeat;
-  background-size: 5rem;
 }
 
 .speakers-elements img {
@@ -495,16 +495,8 @@ footer * {
     justify-content: space-between;
   }
 
-  .program-elements article > * {
-    margin: 5px;
-  }
-
   .program-elements h4 {
     font-size: 0.8rem;
-  }
-
-  .program-elements small {
-    font-size: 0.7rem;
   }
 
   /*** speakers ***/
@@ -545,5 +537,13 @@ footer * {
 
   footer > * {
     margin: 0;
+  }
+
+  .program-elements article > * {
+    margin: 5px;
+  }
+
+  .program-elements small {
+    font-size: 0.7rem;
   }
 }
