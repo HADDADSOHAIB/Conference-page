@@ -281,18 +281,16 @@ footer * {
     box-sizing: border-box;
   }
 
-  /*** navbar ****/
-  .nav-bar {
+  .flex {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: none;
+    justify-content: center;
   }
 
-  .nav-options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /*** navbar ****/
+  .nav-bar {
+    box-shadow: none;
   }
 
   .nav-options li {
@@ -342,10 +340,6 @@ footer * {
 
   .last-container {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   
   .link-item {
@@ -357,10 +351,6 @@ footer * {
   footer {
     padding: 0 5%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   footer small {
