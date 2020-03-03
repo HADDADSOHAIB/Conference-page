@@ -94,7 +94,8 @@ nav {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 25px 25px 50px 50px;
   align-items: center;
-  border: 2px #666 solid;
+  border: 5px #666 solid;
+  border-image: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d) 30 round;
 }
 
 .item {

@@ -212,6 +212,11 @@ nav {
   width: 100px;
   height: 100px;
   margin: 10px;
+  transition: transform 200ms ease-in 0s;
+}
+
+.speakers-elements img:hover {
+  transform: scale(2);
 }
 
 .speaker-name {
