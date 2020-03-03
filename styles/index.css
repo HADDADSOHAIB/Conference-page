@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +22,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -190,7 +190,7 @@ section hr {
   background: url("/images/main-program.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #ffffff;
+  color: #fff;
   position: relative;
 }
 
@@ -211,7 +211,7 @@ section hr {
 
 .program-elements article:hover {
   border: 2px #d3d3d3 solid;
-  background: #111111;
+  background: #111;
 }
 
 .program-elements article small {
@@ -229,7 +229,7 @@ section hr {
 
 .all-program,
 .all-program:hover {
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 
