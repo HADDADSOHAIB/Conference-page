@@ -4,7 +4,7 @@ This project is the capstone project of Microverse curriculum HTML and CSS3 sect
 
 ## Video presentation
 
-[![Video](assets/img/video_thumb.png)](https://www.loom.com/share/b9e0ff8ae5584184ae6911ce83311f9d)
+[![Video](images/readme/1.png)](https://www.loom.com/share/e8aadaa923e54454961c52ea047bcf75)
 
 ## Desktop views
 

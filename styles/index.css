@@ -287,7 +287,6 @@ section hr {
 }
 
 .program-elements article small {
-  text-align: justify;
   display: inline-block;
 }
 
@@ -327,11 +326,6 @@ section hr {
   background-position: -10% 0;
   background-repeat: no-repeat;
   background-size: 5rem;
-}
-
-.program-elements article:hover {
-  border: 2px #d3d3d3 solid;
-  background: #111;
 }
 
 .speakers {
