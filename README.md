@@ -1,4 +1,4 @@
-# newsweek-clone
+# Capstone Project HTML and CSS
 
 This project is the capstone project of Microverse curriculum HTML and CSS3 section.
 
