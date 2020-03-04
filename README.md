@@ -3,6 +3,18 @@
 This project is the capstone project of Microverse curriculum HTML and CSS3 section.
 The website is about the national robotic competion, a place where passionate peaple meet, learn and compete with each other. The website contain 3 pages, main page where I introduced the competition, the about page where I presented the competition and some previous sessions, finaly the tickets page to reserve your place, all the pages are responsive (break point 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
+## Built With
+
+- HTML,
+- CSS,
+- Flexbox layout.
+- Grid layout.
+- Bootstrap.
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/990d5ba77a96da52445048c295d1034d4e7ccd84/index.html)
+
 ## Video presentation
 
 [![Video](images/readme-images/9.png)](https://www.loom.com/share/e8aadaa923e54454961c52ea047bcf75)
@@ -24,18 +36,6 @@ The website is about the national robotic competion, a place where passionate pe
 ![screenshot](images/readme-images/8.png)
 
 
-## Built With
-
-- HTML,
-- CSS,
-- Flexbox layout.
-- Grid layout.
-- Bootstrap.
-
-## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/990d5ba77a96da52445048c295d1034d4e7ccd84/index.html)
-
 ## Authors
 
 👤 **HADDAD SOHAIB**
@@ -44,12 +44,19 @@ The website is about the national robotic competion, a place where passionate pe
 - Twitter: [@HaddadSohaib](https://twitter.com/HaddadSohaib)
 - Linkedin: [linkedin](https://www.linkedin.com/in/sohaibhaddad/)
 
-
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome! Start by:
 
-Feel free to check the [issues page](issues/).
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+Or feel free to check the [issues page](issues/).
 
 ## Show your support
 
