@@ -95,11 +95,11 @@ section hr {
 
 .hello {
   color: #ec5242;
-  margin: 0 auto;
+  margin: 0;
   font-size: 2rem;
 }
 
-.landing-section h2 {
+.landing-section h1 {
   color: #ec5242;
   font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
   padding-top: 5%;
@@ -249,7 +249,7 @@ footer * {
     width: 90%;
   }
 
-  .landing-section h2 {
+  .landing-section h1 {
     padding-top: 20px;
     margin: 0 5%;
     font-size: 2rem;

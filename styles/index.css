@@ -101,14 +101,14 @@ section hr {
 }
 
 .hello {
-  padding-top: 20px;
   margin: 0 auto 5px 15%;
   font-size: 2rem;
 }
 
-.landing-section h2 {
+.landing-section h1 {
   color: rgba(236, 82, 66, 0.8);
   font-weight: 900;
+  padding-top: 20px;
   margin: 0 auto 0 15%;
   font-size: 4rem;
 }
@@ -313,9 +313,9 @@ footer * {
     font-size: 1.5rem;
   }
 
-  .landing-section h2 {
+  .landing-section h1 {
     margin: 0 auto 0 5%;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .description {
@@ -349,7 +349,7 @@ footer * {
   }
 
   .program-elements h4 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .speakers-elements {
