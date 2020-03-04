@@ -34,7 +34,7 @@ The website is about the national robotic competion, a place where passionate pe
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/5b64b8a1f004ea322f44af9b029ba2fa44bd3328/index.html)
+[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/990d5ba77a96da52445048c295d1034d4e7ccd84/index.html)
 
 ## Authors
 
