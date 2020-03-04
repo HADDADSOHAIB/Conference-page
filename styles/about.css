@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Cocogoose Pro trial';
+  src: url('../fonts/Cocogoose\ Pro-trial.ttf');
+}
+
+body {
+  font-family: 'lato', Arial, Helvetica, sans-serif !important;
+}
+
+.position-up {
+  position: relative;
+  z-index: 2;
+}
+
+.link-style,
+.link-style:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+section h3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+section hr {
+  width: 30px;
+  border: 1px #ec5242 solid;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+  padding: 5px;
+}
+
+.navbar-toggler {
+  margin: 10px;
+}
+
+.logo-nav {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-options li {
+  margin-right: 50px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.nav-options a:hover {
+  text-decoration: underline;
+  color: #ec5242;
+}
+
+.landing-section {
+  height: 100%;
+  background: url("../images/about-landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.white-layer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.width-600 {
+  width: 600px;
+}
+
+.hello {
+  color: #ec5242;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.landing-section h1 {
+  color: #ec5242;
+  font-family: 'Cocogoose Pro trial', Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.description {
+  padding: 30px;
+  margin: 30px auto;
+  font-size: 1.2rem;
+  text-align: justify;
+  background: #eee;
+  border: 3px #fff solid;
+}
+
+.contact {
+  margin-top: 30px;
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo-description {
+  margin: 30px auto;
+  text-align: justify;
+}
+
+.logo-section img {
+  margin: 10px auto;
+  height: 300px;
+}
+
+.last-competitions {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.last-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.last-item {
+  height: 200px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+}
+
+.last-item:hover {
+  border: 2px #d3d3d3 solid;
+}
+
+.link-item {
+  margin: 5px;
+  width: 30%;
+}
+
+.last-item-1 {
+  background: url("../images/last-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-item-2 {
+  background: url("../images/last-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-description {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.last-description h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.last-description p {
+  font-size: 1.2rem;
+}
+
+.orange-layer {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(236, 82, 66, 0.5);
+  z-index: 1;
+}
+
+footer {
+  background: #d3d3d3;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer * {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .width-600 {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    box-shadow: none;
+  }
+
+  .nav-options li {
+    margin: 10px;
+  }
+
+  .hello {
+    margin: 0 5%;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+
+  .landing-section h1 {
+    padding-top: 20px;
+    margin: 0 5%;
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 10px;
+    margin: 30px 5%;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  .contact {
+    font-size: 1rem;
+    margin: 10px 5%;
+  }
+
+  .logo-section {
+    text-align: center;
+    margin: auto 5% 40px;
+  }
+
+  .logo-section img {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .last-competitions {
+    padding: 0 5%;
+  }
+
+  .last-container {
+    margin-top: 20px;
+  }
+
+  .link-item {
+    margin: 5px;
+    height: fit-content;
+    width: 80%;
+  }
+
+  footer {
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  footer small {
+    font-size: 0.7rem;
+  }
+
+  footer > * {
+    margin: 0;
+  }
+}

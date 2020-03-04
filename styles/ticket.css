@@ -1,0 +1,247 @@
+body {
+  font-family: 'lato', Arial, Helvetica, sans-serif !important;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.cl-orange {
+  color: #ec5242;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.position-up {
+  position: relative;
+  z-index: 2;
+}
+
+.link-style,
+.link-style:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+section h1 {
+  margin: 0 auto;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+section hr {
+  width: 30px;
+  border: 1px #ec5242 solid;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+  padding: 5px;
+}
+
+.navbar-toggler {
+  margin: 10px;
+}
+
+.logo-nav {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.nav-options {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-options li {
+  margin-right: 50px;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.nav-options a:hover {
+  text-decoration: underline;
+  color: #ec5242;
+}
+
+.select-ticket {
+  text-align: center;
+  background: #eee;
+}
+
+.step {
+  padding: 15px;
+  border: 1px #666 solid;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.ticket-container {
+  width: 80%;
+  margin: 40px auto 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 30px 30px 50px 50px;
+  align-items: center;
+  border: 5px #666 solid;
+  border-image: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d) 30 round;
+}
+
+.item {
+  margin: 0;
+  height: 100%;
+  border: 1px #666 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.select-lunch {
+  text-align: center;
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+.menus-container {
+  border: 1px #666 solid;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.menu-type {
+  background: #eee;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu-type h4 {
+  margin: 0;
+}
+
+.menus {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background: #ec5242;
+  border-radius: 10px;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  border: 1px #666 solid;
+  cursor: pointer;
+}
+
+footer {
+  background: #d3d3d3;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer * {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .width-500 {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-bar {
+    box-shadow: none;
+  }
+
+  .nav-options li {
+    margin: 10px;
+  }
+
+  .select-ticket {
+    padding: 5px;
+  }
+
+  .step {
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  .ticket-container {
+    width: 95%;
+  }
+
+  .item {
+    font-size: 0.7rem;
+  }
+
+  .select-lunch {
+    padding: 5px 5px 50px;
+  }
+
+  .menus-container {
+    border: 1px #666 solid;
+    width: 95%;
+  }
+
+  .menu-type h4 {
+    font-size: 1rem;
+  }
+
+  .menus {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    padding: 0 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer small {
+    font-size: 0.7rem;
+  }
+
+  footer > * {
+    margin: 0;
+  }
+}
