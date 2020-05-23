@@ -13,7 +13,7 @@ The website is about the national robotic competion, a place where passionate pe
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/HTML-capstone-project/c77de4c7ba4a2c85f25e95571332150cb587636b/ticket.html)
+[Live Demo Link](https://haddadsohaib.github.io/Conference-page/index.html)
 
 ## Video presentation
 
