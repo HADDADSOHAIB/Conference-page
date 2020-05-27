@@ -1,7 +1,7 @@
 # Capstone Project HTML and CSS
 
-This project is the capstone project of Microverse curriculum HTML and CSS3 section.
-The website is about the national robotic competion, a place where passionate peaple meet, learn and compete with each other. The website contain 3 pages, main page where I introduced the competition, the about page where I presented the competition and some previous sessions, finaly the tickets page to reserve your place, all the pages are responsive (break point 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
+This project is the capstone project of the Microverse curriculum HTML and CSS3 section.
+The website is about the national robotic competition, a place where passionate people meet, learn, and compete with each other. The website contains 3 pages, main page where I introduced the competition, the about page where I presented the competition and some previous sessions, finally the tickets page to reserve your place, all the pages are responsive (breakpoint 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## Built With
 
